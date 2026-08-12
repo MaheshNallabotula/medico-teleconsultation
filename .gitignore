@@ -1,0 +1,4 @@
+medico/frontend/node_modules
+medico/backend/src/main/resources/application.properties
+medico/backend/src/main/resources/application.yml
+.idea

@@ -1,0 +1,132 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chatbot-toggle {
+    /* background-color: #2196f3; */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('data:image/png;base64,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');
+    background-size: contain; /* Adjust the background size as needed */
+    
+  }
+  
+  .chatbot-wrapper {
+    width: 400px;
+    max-height: 80%;
+    background-color: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chatbot-header {
+    padding: 10px;
+    background-color: #f3f4f6;
+    border-bottom: 1px solid #d1d5db;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items and add space between */
+    cursor: pointer;
+  }
+  
+  .chatbot-title {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .chatbot-messages {
+    max-height: 400px; /* Adjust the max-height as per your requirement */
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-message .message-content {
+    background-color: #2196f3;
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px 15px;
+    max-width: 70%;
+  }
+  
+  .bot-message .message-content {
+    background-color: #f3f4f6;
+    color: #000;
+    border-radius: 12px;
+    padding: 10px 15px;
+    max-width: 70%;
+  }
+  
+  .user-icon,
+  .bot-icon,
+  .bot-icon-expanded {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    color: #2196f3;
+  }
+  
+  .voice-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    color: #4caf50;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .chatbot-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9fafb;
+  }
+  
+  .typing-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2196f3;
+    margin-left: 10px;
+    animation: typing 1s infinite alternate;
+  }
+  
+  @keyframes typing {
+    0% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .minimize-icon {
+    width: 24px;
+    height: 24px;
+    color: #555;
+    cursor: pointer;
+  }
+  

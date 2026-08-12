@@ -1,0 +1,16 @@
+/* CustomScrollbar.css */
+
+/* Change scrollbar thumb color */
+.custom-carousel-container {
+  overflow-y: auto;
+}
+
+.custom-carousel-container::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 6px;
+}
+
+/* Change scrollbar track color */
+.custom-carousel-container::-webkit-scrollbar-track {
+  background-color: blue;
+}

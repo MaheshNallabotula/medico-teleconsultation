@@ -1,0 +1,7 @@
+.custom-table .ant-table-thead > tr > th {
+    background-color: #8A2BE2; /* medium-purple-100 */
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-size: larger;
+  }
